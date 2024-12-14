@@ -19,7 +19,7 @@ import fitz  # PyMuPDF
 # }
 # The "content-type" field specifies the content type of the response, and the "content" field contains the base64 encoded PDF file with the extracted pages.
 # Which is what Power Automate Cloud Flows expects as a response (a JSON payload with the content type and content fields).
-# ⭐ The PA Cloud Flow that I created is named 'SPLIT PDF VIA AZURE FUNCTION' (under my aagirre92@66z6zy.onmicrosoft.com account, default environment)
+# ⭐ The PA Cloud Flow that I created is named 'SPLIT PDF VIA AZURE FUNCTION' (under my 66z6zy.onmicrosoft.com account, default environment)
 
 
 # Create a function app
