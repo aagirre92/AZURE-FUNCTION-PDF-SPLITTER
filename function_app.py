@@ -26,8 +26,8 @@ import fitz  # PyMuPDF
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
-@app.route(route="merge_and_split_pdf")
-def merge_and_split_pdf(req: func.HttpRequest) -> func.HttpResponse:
+@app.route(route="split_pdf")
+def split_pdf(req: func.HttpRequest) -> func.HttpResponse:
     if req.method == 'POST':
         try:
             # Parse the request body
